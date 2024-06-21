@@ -28,9 +28,6 @@ window = Tk()
 window.title("Anime Quote Generator")
 
 canvas = Canvas(width=462, height=648)
-# img_files = ["howls_moving_castle", "nausicaa", "ponyo", "princess_mononoke", "spirited_away"]
-# anime_bg_img = PhotoImage(file=f"images/{random.choice(img_files)}.png")
-# anime_bg = canvas.create_image(250, 350, image=anime_bg_img)
 quote_bg_img = PhotoImage(file="images/quote_bg_2.png")
 quote_bg = canvas.create_image(231, 341, image=quote_bg_img)
 anime_name_text = canvas.create_text(231, 250, text="", justify="center", width=375,
